@@ -5,7 +5,7 @@ In the framework of Stochastic Filtering Algorithms, such as the Kalman-Bucy Fil
 
 Unlike analytical filters, the Bootstrap Particle Filter represents the posterior probability density function $p(x_n | y_{0:n})$ empirically through a set of $J$ random samples, called particles, each associated with a specific importance weight. By leveraging the system's dynamic equations as the proposal distribution, the algorithm recursively updates these weights based on the likelihood of the incoming observable measurements. To prevent the classic issue of weight degeneracy—where all but a few particles end up with negligible weights—a multinomial resampling step is adaptively triggered based on the effective number of particles ($N_{eff}$).
 
-In this code, we test the algorithm in the following non-linear, non-Gaussian state-space system of equations:
+In this code, we test the algorithm in the following non-linear, non-Gaussian state-space system of equations each one corrupted with a different type of noise (uniform and cauchy):
 
 Dynamical Model:
 
