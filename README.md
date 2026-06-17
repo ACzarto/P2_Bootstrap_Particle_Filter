@@ -1,4 +1,4 @@
-# P1_Bootstrap_Particle_Filter
+# P2_Bootstrap_Particle_Filter
 This repository contains the code that implements and test the Bootstrap Particle Filter, a type of sequential Monte Carlo method for non-linear state estimation. 
 
 In the framework of Stochastic Filtering Algorithms, such as the Kalman-Bucy Filter, one depends on the hypothesis of linearity and gaussian noises. In the situation that we do not, we have as an alternative the so-called Bootstrap Particle Filter, that uses the Sequential Importance Sampling (SIS) technique to estimate the hidden state. 
