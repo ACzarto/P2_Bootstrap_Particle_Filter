@@ -20,3 +20,5 @@ Observation Model:
 $$o_n = \frac{1}{x_n} + y_n^2 + v_n$$
 
 and the noise $$v_n \sim \text{Cauchy}(0, 0.02)$$
+
+The following figure show the estimation trajectory in comparison with the real trajectory
